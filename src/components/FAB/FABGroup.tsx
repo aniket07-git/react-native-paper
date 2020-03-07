@@ -28,6 +28,7 @@ type Props = {
    * - `onPress`: callback that is called when `FAB` is pressed (required)
    */
   actions: Array<{
+    
     icon: IconSource;
     label?: string;
     color?: string;
